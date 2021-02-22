@@ -1,15 +1,15 @@
 {
-	"name": "greenpeace/planet4-indonesia",
-	"description": "Greenpeace P4 Indonesia",
-	"license": "MIT",
-	"require": {
-		"greenpeace/planet4-child-theme-indonesia" : "*"
-	},
-	"scripts": {
-		"core:language": "wp language core install id_ID; wp language core activate id_ID",
-		"site:custom": [
-			"@core:language"
-		]
+    "name": "greenpeace/planet4-indonesia",
+    "description": "Greenpeace P4 Indonesia",
+    "license": "MIT",
+    "require": {
+        "greenpeace/planet4-child-theme-indonesia" : "*"
+    },
+    "scripts": {
+        "core:language": "wp language core install id_ID; wp language core activate id_ID",
+        "site:custom": [
+            "@core:language"
+        ]
 
-	}
+    }
 }
