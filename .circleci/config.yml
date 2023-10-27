@@ -34,8 +34,6 @@ job_environments:
     GCLOUD_CLUSTER: p4-development
     HELM_NAMESPACE: indonesia
     HELM_RELEASE: planet4-indonesia
-    MIN_REPLICA_COUNT: 1
-    MAX_REPLICA_COUNT: 1
     WP_DB_NAME: planet4-indonesi_wordpress_develop
     WP_STATELESS_BUCKET: planet4-indonesia-stateless-develop
   release_build_env: &release_build_env
@@ -57,8 +55,7 @@ job_environments:
     GOOGLE_PROJECT_ID: planet4-production
     HELM_NAMESPACE: indonesia
     HELM_RELEASE: planet4-indonesia-master
-    MIN_REPLICA_COUNT: 1
-    MAX_REPLICA_COUNT: 1
+    MIN_REPLICA_COUNT: 2
     WP_DB_NAME: planet4-indonesi_wordpress_master
     WP_STATELESS_BUCKET: planet4-indonesia-stateless
 
