@@ -5,7 +5,8 @@
   "require": {
     "greenpeace/planet4-child-theme-indonesia" : "dev-vanilla",
     "plugins/gravityformshubspot": "*",
-    "wpackagist-plugin/wordpress-seo": "21.*"
+    "wpackagist-plugin/wordpress-seo": "21.*",
+    "wpackagist-plugin/maintenance": "4.*"
   },
   "scripts": {
     "core:language": "wp language core install id_ID; wp language core activate id_ID",
