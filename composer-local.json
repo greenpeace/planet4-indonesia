@@ -3,7 +3,7 @@
   "description": "Greenpeace P4 Indonesia",
   "license": "MIT",
   "require": {
-    "greenpeace/planet4-child-theme-indonesia" : "dev-vanilla",
+    "greenpeace/planet4-child-theme-indonesia" : "dev-main",
     "plugins/gravityformshubspot": "*",
     "wpackagist-plugin/wordpress-seo": "21.*",
     "wpackagist-plugin/maintenance": "4.*"
