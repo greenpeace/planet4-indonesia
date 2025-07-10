@@ -36,7 +36,6 @@ job_environments:
     HELM_RELEASE: planet4-indonesia
     WP_DB_NAME: planet4-indonesi_wordpress_develop
     WP_STATELESS_BUCKET: planet4-indonesia-stateless-develop
-    PARENT_VERSION: max_execution_time
   release_build_env: &release_build_env
     GOOGLE_PROJECT_ID: planet4-production
   release_environment: &release_environment
